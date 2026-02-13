@@ -1,0 +1,47 @@
+db.sections.insertMany([
+{
+  _id:"SEC001",
+  courseId:"C101",
+  courseName:"Database",
+  year:2567,
+  term:1,
+  instructor:"Prof.A",
+  students:["66010001","66010002","66010003"]
+},
+{
+  _id:"SEC002",
+  courseId:"C102",
+  courseName:"Programming",
+  year:2567,
+  term:1,
+  instructor:"Prof.B",
+  students:["66010001","66010004"]
+},
+{
+  _id:"SEC003",
+  courseId:"C103",
+  courseName:"Networks",
+  year:2567,
+  term:1,
+  instructor:"Prof.C",
+  students:["66010002","66010005"]
+},
+{
+  _id:"SEC004",
+  courseId:"C104",
+  courseName:"AI",
+  year:2567,
+  term:1,
+  instructor:"Prof.D",
+  students:["66010003","66010004"]
+},
+{
+  _id:"SEC005",
+  courseId:"C105",
+  courseName:"WebTech",
+  year:2567,
+  term:1,
+  instructor:"Prof.E",
+  students:["66010005"]
+}
+])
